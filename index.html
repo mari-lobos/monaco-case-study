@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mónaco | Case Study</title>
+    <link rel="icon" src="assets/images/">
+    <head>
+      <link rel="stylesheet" href="style.css">
+    </head>
+</head>
+<body>
+
+  <!-- Aqui empieza el HEADER -->
+    <header class="header">
+        <svg width="104" height="25" viewBox="0 0 104 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_79_885)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M102.5 9.99998C103.2 11.1 103.5 12.4 103.5 13.7V17.3C103.5 18.6 103.2 19.9 102.5 21C101.8 22.1 101 23 99.8 23.7C98.7 24.4 97.4 24.7 96.1 24.7C94.8 24.7 93.5 24.4 92.4 23.7C91.3 23 90.4 22.1 89.7 21C89 19.9 88.7 18.6 88.7 17.3V13.7C88.7 12.4 89 11.1 89.7 9.99998C90.4 8.89998 91.3 7.99998 92.4 7.29998C93.5 6.59998 94.8 6.29998 96.1 6.29998C97.4 6.29998 98.7 6.59998 99.8 7.29998C100.9 7.99998 101.8 8.79998 102.5 9.99998ZM98.8 22.1C99.7 21.6 100.3 20.9 100.8 20.1C101.3 19.2 101.5 18.3 101.5 17.3V13.7C101.5 12.7 101.3 11.8 100.8 11C100.3 10.2 99.7 9.49998 98.8 8.99998C98 8.49998 97.1 8.19998 96.1 8.19998C95.1 8.19998 94.2 8.39998 93.3 8.89998C92.5 9.39998 91.8 9.99998 91.3 10.9C90.8 11.7 90.6 12.6 90.6 13.6V17.2C90.6 18.2 90.8 19.1 91.3 20C91.8 20.8 92.5 21.5 93.3 22C94.2 22.5 95.1 22.7 96.1 22.7C97.1 22.7 98 22.5 98.8 22V22.1ZM78.5 22.8C77.5 22.8 76.6 22.6 75.8 22.1C75 21.6 74.3 21 73.8 20.1C73.3 19.3 73.1 18.4 73.1 17.4V13.5C73.1 12.5 73.3 11.6 73.8 10.8C74.3 9.99998 74.9 9.29998 75.8 8.79998C76.6 8.29998 77.5 8.09998 78.5 8.09998C79.5 8.09998 80.4 8.29998 81.2 8.69998C82 9.09998 82.6 9.59998 83.1 10.3C83.6 11 83.8 11.8 83.8 12.6V13.1H85.7V12.6C85.7 11.4 85.4 10.3 84.7 9.29998C84.1 8.29998 83.2 7.49998 82.1 6.99998C81 6.39998 79.8 6.19998 78.5 6.19998C77.2 6.19998 76 6.49998 74.9 7.19998C73.8 7.89998 72.9 8.69998 72.3 9.89998C71.7 11 71.3 12.2 71.3 13.5V17.4C71.3 18.7 71.6 19.9 72.3 21C73 22.1 73.8 23 74.9 23.6C76 24.3 77.2 24.6 78.5 24.6C79.8 24.6 81 24.3 82.1 23.8C83.2 23.2 84.1 22.5 84.7 21.5C85.3 20.5 85.7 19.4 85.7 18.2V17.7H83.8V18.2C83.8 19.1 83.5 19.8 83.1 20.5C82.7 21.2 82 21.7 81.2 22.1C80.4 22.5 79.5 22.7 78.5 22.7V22.8ZM59.7 6.69998H61.3L68.6 24.4H66.6L64.3 18.9H56.7L54.4 24.4H52.4L59.7 6.69998ZM57.5 17H63.5L60.5 9.69998L57.5 17ZM35.7 6.69998V24.4H37.6V9.49998L48.3 19.9V24.3H50.2V6.69998H48.3V17.3L37.3 6.69998H35.7ZM31.4 9.99998C32.1 11.1 32.4 12.4 32.4 13.7V17.3C32.4 18.6 32.1 19.9 31.4 21C30.7 22.1 29.9 23 28.7 23.7C27.6 24.4 26.3 24.7 25 24.7C23.7 24.7 22.4 24.4 21.3 23.7C20.2 23 19.3 22.1 18.6 21C17.9 19.9 17.6 18.6 17.6 17.3V13.7C17.6 12.4 17.9 11.1 18.6 9.99998C19.3 8.89998 20.2 7.99998 21.3 7.29998C22.4 6.59998 23.7 6.29998 25 6.29998C26.3 6.29998 27.6 6.59998 28.7 7.29998C29.8 7.99998 30.7 8.79998 31.4 9.99998ZM27.8 22.1C28.7 21.6 29.3 20.9 29.8 20.1C30.3 19.2 30.5 18.3 30.5 17.3V13.7C30.5 12.7 30.3 11.8 29.8 11C29.3 10.2 28.7 9.49998 27.8 8.99998C27 8.49998 26.1 8.19998 25.1 8.19998C24.1 8.19998 23.2 8.39998 22.3 8.89998C21.5 9.39998 20.8 9.99998 20.3 10.9C19.8 11.7 19.6 12.6 19.6 13.6V17.2C19.6 18.2 19.8 19.1 20.3 20C20.8 20.8 21.5 21.5 22.3 22C23.1 22.5 24.1 22.7 25.1 22.7C26.1 22.7 27 22.5 27.8 22V22.1ZM0 24.4H1.9V10.7L6.6 19H8L12.6 10.9V24.4H14.5V6.69998H12.8L7.3 16.5L1.8 6.69998H0V24.4Z" fill="#1D1D1D"/>
+<path d="M26 0.299988H24V4.29999H26V0.299988Z" fill="#1D1D1D"/>
+</g>
+<defs>
+<clipPath id="clip0_79_885">
+<rect width="103.5" height="24.4" fill="white" transform="translate(0 0.299988)"/>
+</clipPath>
+</defs>
+</svg>
+
+        <nav class="navigation">
+            <ul class="secciones">
+                <li class="moda">Moda</li>
+                <li class="hogar">Hogar</li>
+                <li class="belleza">Belleza</li>
+                <li class="deporte">Deporte</li>
+                <li class="electrodomesticos">Electrodomésticos</li>
+                <li class="tecnologia">Tecnología</li>
+            </ul>
+        </nav>
+        
+        <div class="iconos">
+          <div class="search icono">
+            <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M6.27765 11.78C6.27765 8.69998 8.76744 6.24985 11.78 6.24985C14.7926 6.24985 17.2824 8.69998 17.2824 11.78C17.2824 14.86 14.7926 17.3102 11.78 17.3102C8.76744 17.3102 6.27765 14.86 6.27765 11.78ZM11.78 4.74985C7.85593 4.74985 4.72241 7.92319 4.72241 11.78C4.72241 15.6368 7.85593 18.8102 11.78 18.8102C13.5885 18.8102 15.229 18.1362 16.4723 17.0319L20.1523 21.4685C20.4206 21.792 20.9099 21.8444 21.2453 21.5856C21.5806 21.3269 21.635 20.8549 21.3667 20.5315L17.511 15.883C18.347 14.7252 18.8377 13.3061 18.8377 11.78C18.8377 7.92319 15.7041 4.74985 11.78 4.74985Z" fill="#1D1D1D"/>
+              </svg>
+              
+          </div>
+
+          <div class="chart icono">
+            <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M9.12208 6.09541C9.42189 4.62262 10.7742 3.49976 12.3856 3.49976C14.0084 3.49976 15.3628 4.63486 15.6503 6.11136C15.7295 6.51846 15.4516 6.91046 15.0295 6.98691C14.6075 7.06337 14.201 6.79533 14.1217 6.38823C13.9692 5.60469 13.2431 4.99976 12.3856 4.99976C11.5365 4.99976 10.8084 5.59715 10.6482 6.38441C10.5654 6.79086 10.1567 7.05566 9.73531 6.97586C9.31389 6.89605 9.03933 6.50187 9.12208 6.09541ZM5.82713 10.8118C6.04337 9.50137 7.17852 8.49976 8.56503 8.49976H17.2151C18.6016 8.49976 19.7367 9.50138 19.953 10.8119L21.083 17.6519C21.4523 19.9048 19.7164 22.01 17.3551 22.01H8.42502C6.06367 22.01 4.32766 19.9057 4.69698 17.6528L5.82713 10.8118ZM8.56503 9.99976C7.99161 9.99976 7.46686 10.4182 7.36302 11.0477L6.23314 17.8871C6.00271 19.2941 7.08649 20.51 8.42502 20.51H17.3551C18.6937 20.51 19.7776 19.2943 19.547 17.8871L18.4171 11.0479C18.3133 10.4184 17.7885 9.99976 17.2151 9.99976H8.56503Z" fill="#1D1D1D"/>
+              </svg>
+          </div>
+
+          <div class="profile icono">
+            <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 5.24982C10.6086 5.24982 9.02765 6.79105 9.02765 8.74991C9.02765 10.7088 10.6086 12.25 12.5 12.25C14.3915 12.25 15.9724 10.7088 15.9724 8.74991C15.9724 6.79105 14.3915 5.24982 12.5 5.24982ZM7.47241 8.74991C7.47241 6.01425 9.69707 3.74982 12.5 3.74982C15.303 3.74982 17.5277 6.01425 17.5277 8.74991C17.5277 11.4856 15.303 13.75 12.5 13.75C9.69707 13.75 7.47241 11.4856 7.47241 8.74991ZM9.94998 17.75C7.94579 17.75 6.27765 19.3786 6.27765 21.4503C6.27765 21.8645 5.9295 22.2003 5.50003 22.2003C5.07056 22.2003 4.72241 21.8645 4.72241 21.4503C4.72241 18.6019 7.03418 16.25 9.94998 16.25H15.06C17.9757 16.25 20.2877 18.6019 20.2877 21.4503C20.2877 21.8645 19.9395 22.2003 19.51 22.2003C19.0806 22.2003 18.7324 21.8645 18.7324 21.4503C18.7324 19.3786 17.0642 17.75 15.06 17.75H9.94998Z" fill="#1D1D1D"/>
+              </svg>
+            
+        </div>
+
+    </header>
+
+ <!-- Aqui termina el HEADER -->
+
+ <!-- Aqui empieza el BREADCRUMB -->
+
+    <div class="tecnolog-a-auriculares-marshall">
+      Tecnología &gt; Auriculares &gt; Marshall
+    </div>
+
+ <!-- Aqui termina el BREADCRUMB -->
+
+ <!-- Aqui empieza la FICHA DE PRODUCTO -->
+
+        
+        <div class="carrusel-detalle">
+          <div class="carrusel-negro">
+            <div class="button">
+           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M6.71389 2.45936C7.01251 2.17231 7.48729 2.18169 7.77434 2.48031L16.4547 11.5105C16.7344 11.8015 16.7336 12.2617 16.4529 12.5518L7.77261 21.522C7.48457 21.8196 7.00976 21.8274 6.71209 21.5394C6.41443 21.2514 6.40663 20.7765 6.69468 20.4789L14.872 12.0285L6.69294 3.51981C6.40589 3.22119 6.41527 2.74641 6.71389 2.45936Z" fill="#1D1D1D"/>
+</svg>
+            </div>
+            <img src="assets/images/image_1.png" alt="Auriculares Marshall" class="carousel-item">
+
+            <div class="frame-2">
+              <div class="ellipse-1"></div>
+              <div class="ellipse-2"></div>
+              <div class="ellipse-3"></div>
+              <div class="ellipse-4"></div>
+              <div class="ellipse-5"></div>
+            </div>
+          </div>
+          <div class="product-details">
+            <div class="description">
+              <div class="product-name">
+                <div class="title">
+                  <div class="h1">Marshall Major IV</div>
+                  <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M5.56234 7.81189C4.74684 8.7701 4.27765 10.0398 4.27765 11.2499C4.27765 13.7145 6.23902 16.0821 8.44831 17.9224C9.52755 18.8214 10.615 19.5523 11.4425 20.0581C11.8558 20.3108 12.2009 20.5052 12.4437 20.6346C12.4632 20.6451 12.482 20.655 12.5 20.6645C12.5181 20.655 12.5368 20.6451 12.5564 20.6346C12.7991 20.5052 13.1442 20.3108 13.5575 20.0581C14.3851 19.5523 15.4725 18.8214 16.5518 17.9224C18.7611 16.0821 20.7224 13.7145 20.7224 11.2499C20.7224 10.0398 20.2532 8.77011 19.4377 7.8119C18.6291 6.86182 17.512 6.24976 16.2 6.24976C14.681 6.24976 13.6928 6.99097 13.1009 7.68589C12.9532 7.85929 12.7327 7.95978 12.5 7.95978C12.2674 7.95978 12.0469 7.85929 11.8992 7.68589C11.3072 6.99097 10.319 6.24976 8.80002 6.24976C7.488 6.24976 6.37092 6.86182 5.56234 7.81189ZM12.7677 20.7978C12.7675 20.7978 12.7672 20.7977 12.767 20.7975L12.7677 20.7978ZM4.36021 6.86019C5.40913 5.62772 6.94204 4.74976 8.80002 4.74976C10.4599 4.74976 11.6732 5.39824 12.5 6.12363C13.3268 5.39824 14.5401 4.74976 16.2 4.74976C18.058 4.74976 19.5909 5.62772 20.6398 6.86019C21.6818 8.08453 22.2777 9.68992 22.2777 11.2499C22.2777 14.4254 19.819 17.1828 17.5683 19.0576C16.4176 20.0162 15.265 20.7903 14.39 21.3251C13.9521 21.5928 13.5803 21.8026 13.309 21.9473C13.1739 22.0193 13.0599 22.0773 12.9727 22.119C12.9302 22.1393 12.887 22.1591 12.8475 22.1755C12.8287 22.1833 12.8009 22.1945 12.7692 22.2051C12.7537 22.2103 12.7278 22.2186 12.6959 22.2264L12.6954 22.2265C12.6751 22.2315 12.5987 22.2501 12.5 22.2501C12.4014 22.2501 12.325 22.2315 12.3047 22.2265L12.3041 22.2264C12.2723 22.2186 12.2464 22.2103 12.2309 22.2051C12.1992 22.1945 12.1714 22.1833 12.1526 22.1755C12.1131 22.1591 12.0699 22.1393 12.0273 22.119C11.9401 22.0773 11.8261 22.0193 11.6911 21.9473C11.4198 21.8026 11.048 21.5928 10.61 21.3251C9.73507 20.7903 8.58251 20.0162 7.43176 19.0576C5.18105 17.1828 2.72241 14.4254 2.72241 11.2499C2.72241 9.68992 3.31822 8.08453 4.36021 6.86019Z" fill="#1D1D1D"/>
+                    </svg>
+                </div>
+              </div>
+              <div class="price">299 €</div>
+              <div class="star">
+                <div class="point">5,5</div>
+                <div class="review">
+                  <div class="star2">
+                    <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M12.1606 3L14.1813 9.21897H20.7201L15.4301 13.0625L17.4507 19.2815L12.1606 15.4379L6.87058 19.2815L8.8912 13.0625L3.60114 9.21897H10.14L12.1606 3Z" fill="#1D1D1D"/>
+                      </svg>
+                  </div>
+                  <div class="star2">
+                    <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M12.1606 3L14.1813 9.21897H20.7201L15.4301 13.0625L17.4507 19.2815L12.1606 15.4379L6.87058 19.2815L8.8912 13.0625L3.60114 9.21897H10.14L12.1606 3Z" fill="#1D1D1D"/>
+                      </svg>
+                  </div>
+                  <div class="star2">
+                    <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M12.1606 3L14.1813 9.21897H20.7201L15.4301 13.0625L17.4507 19.2815L12.1606 15.4379L6.87058 19.2815L8.8912 13.0625L3.60114 9.21897H10.14L12.1606 3Z" fill="#1D1D1D"/>
+                      </svg>
+                  </div>
+                  <div class="star2">
+                    <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M12.1606 3L14.1813 9.21897H20.7201L15.4301 13.0625L17.4507 19.2815L12.1606 15.4379L6.87058 19.2815L8.8912 13.0625L3.60114 9.21897H10.14L12.1606 3Z" fill="#1D1D1D"/>
+                      </svg>
+                  </div>
+                  <div class="star2">
+                    <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M12.1606 3L14.1813 9.21897H20.7201L15.4301 13.0625L17.4507 19.2815L12.1606 15.4379L6.87058 19.2815L8.8912 13.0625L3.60114 9.21897H10.14L12.1606 3Z" fill="#1D1D1D"/>
+                      </svg>
+                  </div>
+                </div>
+                <div class="quantity_review">(20)</div>
+              </div>
+              <div class="product-description">
+                <div
+                  class="estos-auriculares-se-han-dise-ado-meticulosamente-y-ajustado-a-la-perfecci-n-para-que-conectes-como-nunca-con-el-sonido-que-m-s-te-gusta-leer-m-s"
+                >
+                  <span>
+                    <span
+                      class="estos-auriculares-se-han-dise-ado-meticulosamente-y-ajustado-a-la-perfecci-n-para-que-conectes-como-nunca-con-el-sonido-que-m-s-te-gusta-leer-m-s-span"
+                    >
+                      Estos auriculares se han diseñado meticulosamente
+                      <br />
+                      y ajustado a la perfección para que conectes
+                      <br />
+                      como nunca con el sonido que más te gusta.
+                    </span>
+                    <span
+                      class="estos-auriculares-se-han-dise-ado-meticulosamente-y-ajustado-a-la-perfecci-n-para-que-conectes-como-nunca-con-el-sonido-que-m-s-te-gusta-leer-m-s-span2"
+                    >
+                      Leer más
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div class="line"></div>
+              <div class="color">
+                <div class="product_color">
+                  <div class="color-negro">
+                    <span>
+                      <span class="color-negro-span">Color:</span>
+                      <span class="color-negro-span2">NEGRO</span>
+                    </span>
+                  </div>
+                </div>
+                <div class="circle">
+                  <div class="frame-25">
+                    <div class="frame-1">
+                      <div class="ellipse-7"></div>
+                      <div class="ellipse-6"></div>
+                    </div>
+                    <div class="frame-22">
+                      <div class="ellipse-72"></div>
+                      <div class="ellipse-62"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="cantidad">
+                <div class="cantidad2">Cantidad</div>
+              </div>
+              <div class="cantidad3">
+                <img class="vector" src="vector0.svg" />
+                <div class="rectangle-25"></div>
+                <div class="_1">1</div>
+                <img class="vector2" src="vector1.svg" />
+              </div>
+            </div>
+            <div class="cta-button">
+              <div class="label">Añadir al carrito</div>
+            </div>
+            <div class="info-delivery">
+              <div class="cuotas">
+                <div class="frame-252">
+                  <div class="o-3-cuotras-sin-intereses-de-166-33-con">
+                    O 3 cuotras sin intereses de 99,66 € con
+                  </div>
+                  <svg width="62" height="15" viewBox="0 0 62 15" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <rect x="0.160645" y="0.500732" width="61.7647" height="14" fill="url(#pattern0_12_2755)"/>
+                    <defs>
+                    <pattern id="pattern0_12_2755" patternContentUnits="objectBoundingBox" width="1" height="1">
+                    <use xlink:href="#image0_12_2755" transform="scale(0.00333333 0.0147059)"/>
+                    </pattern>
+                    <image id="image0_12_2755" width="300" height="68" xlink:href="data:image/png;base64,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"/>
+                    </defs>
+                    </svg>
+                </div>
+                <div class="cajon-de-iconos">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.25 12.75C11.8358 12.75 11.5 12.4142 11.5 12L11.5 7C11.5 6.58579 11.8358 6.25 12.25 6.25C12.6642 6.25 13 6.58579 13 7L13 12C13 12.4142 12.6642 12.75 12.25 12.75Z" fill="#1D1D1D"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.25 15.75C13.25 16.3042 12.8042 16.75 12.25 16.75C11.6958 16.75 11.25 16.3042 11.25 15.75C11.25 15.1958 11.6958 14.75 12.25 14.75C12.8042 14.75 13.25 15.1958 13.25 15.75Z" fill="#1D1D1D"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.2099 20.5C16.7916 20.5 20.5 16.8032 20.5 12.25C20.5 7.69679 16.7916 4 12.2099 4C7.62826 4 3.9198 7.69679 3.9198 12.25C3.9198 16.8032 7.62826 20.5 12.2099 20.5ZM22 12.25C22 17.6379 17.6137 22 12.2099 22C6.80613 22 2.4198 17.6379 2.4198 12.25C2.4198 6.86208 6.80613 2.5 12.2099 2.5C17.6137 2.5 22 6.86208 22 12.25Z" fill="#1D1D1D"/>
+                    </svg>
+                </div>
+            
+              </div>
+              <div class="delivery-store">
+                <div class="texto-icono">
+                  <div class="store">
+                    <div class="placerholder7">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4.07007 10.8903V20.8903M19.0773 10.8903V20.8903M13.7156 20.8905V16.4505C13.7156 15.2204 12.7606 14.2305 11.5741 14.2305C10.3876 14.2305 9.43252 15.2204 9.43252 16.4505V20.8905M1.92896 20.8905H21.2186M4.14727 10.8903C2.50765 10.8803 1.44678 9.20025 2.15085 7.75022L3.80973 4.37027C4.18587 3.60025 4.97673 3.11023 5.84476 3.11023H17.3028C18.1708 3.11023 18.9617 3.60025 19.3378 4.37027L20.9968 7.75022C21.7105 9.20025 20.6399 10.8803 19.0003 10.8903C17.6307 10.8903 16.5216 9.92037 16.5216 8.73034V8.68029C16.5216 9.90032 15.4124 10.8903 14.0428 10.8903C12.6733 10.8903 11.5642 9.90032 11.5642 8.68029C11.5642 9.90032 10.455 10.8903 9.0854 10.8903C7.71584 10.8903 6.60674 9.90032 6.60674 8.68029V8.73034C6.60674 9.92037 5.49752 10.8903 4.12796 10.8903H4.14727Z" stroke="#1D1D1D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        
+                    </div>
+                  </div>
+                  <div class="recogida-gratuita-en-tienda">
+                    Recogida gratuita en tienda
+                  </div>
+                </div>
+              </div>
+              <div class="delivery-house">
+                <div class="delivery">
+                  <div class="placerholder7">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M8.89479 4.00006C8.89479 3.58585 9.23058 3.25006 9.64479 3.25006H13.5027C14.4727 3.25006 15.2172 4.06167 15.2172 5.00008V6.25012H18.6337C19.3495 6.25012 19.9783 6.70068 20.2307 7.36084L21.7829 11.369L21.7888 11.3848C21.9018 11.6973 21.9685 12.0338 21.9685 12.3801V13.9682L21.969 13.9812L21.9692 14.0003C21.9692 14.011 21.969 14.0217 21.9685 14.0323V18.3304C21.9685 19.2688 21.2241 20.0805 20.254 20.0805H19.1392C19.0357 20.4351 18.8479 20.7697 18.576 21.0515C17.683 21.9773 16.2287 21.9773 15.3357 21.0515C15.0868 20.7936 14.9085 20.4915 14.8006 20.1703H8.5018C8.39395 20.4915 8.21561 20.7936 7.96678 21.0515C7.07378 21.9773 5.6194 21.9773 4.7264 21.0515C4.475 20.7909 4.29556 20.4853 4.18807 20.1604H2.8936C1.92361 20.1604 1.17896 19.3489 1.17896 18.4103V15.0003V12.9903C1.17896 12.5761 1.51474 12.2403 1.92896 12.2403C2.34317 12.2403 2.67896 12.5761 2.67896 12.9903V14.2503H13.7172V7.00685L13.7172 7.00012L13.7172 6.99339V5.00008C13.7172 4.83847 13.5936 4.75006 13.5027 4.75006H9.64479C9.23058 4.75006 8.89479 4.41427 8.89479 4.00006ZM20.4685 12.3801V13.2503H18.1106V10.7502H19.9347L20.3808 11.9021C20.4396 12.0671 20.4685 12.2286 20.4685 12.3801ZM18.8297 7.89687L19.3538 9.25018H17.3606C16.9464 9.25018 16.6106 9.58597 16.6106 10.0002V14.0003C16.6106 14.4145 16.9464 14.7503 17.3606 14.7503H20.4685V18.3304C20.4685 18.492 20.3449 18.5805 20.254 18.5805H19.0861C18.9765 18.2856 18.8065 18.0088 18.576 17.7699C17.683 16.8441 16.2287 16.8441 15.3357 17.7699C15.0819 18.0329 14.9014 18.3419 14.7943 18.6703H8.50814C8.40101 18.3419 8.22055 18.0329 7.96678 17.7699C7.07378 16.8441 5.6194 16.8441 4.7264 17.7699C4.47519 18.0303 4.29583 18.3357 4.18831 18.6604H2.8936C2.80249 18.6604 2.67896 18.5718 2.67896 18.4103V15.7503H14.4672C14.8814 15.7503 15.2172 15.4145 15.2172 15.0003V7.75012H18.6337C18.7078 7.75012 18.7922 7.79828 18.8297 7.89687ZM16.1795 19.4787C16.181 19.4594 16.1817 19.4399 16.1817 19.4203C16.1817 19.3976 16.1807 19.3752 16.1787 19.3531C16.1916 19.1553 16.2704 18.9614 16.4152 18.8113C16.7184 18.497 17.1933 18.497 17.4965 18.8113C17.8143 19.1407 17.8143 19.6807 17.4965 20.0102C17.1933 20.3244 16.7184 20.3244 16.4152 20.0102C16.2729 19.8626 16.1943 19.6728 16.1795 19.4787ZM5.57004 19.4763C5.58442 19.6713 5.66307 19.862 5.80598 20.0102C6.10914 20.3244 6.58404 20.3244 6.8872 20.0102C7.20501 19.6807 7.20501 19.1407 6.8872 18.8113C6.58404 18.497 6.10914 18.497 5.80598 18.8113C5.66317 18.9593 5.58453 19.1499 5.57007 19.3447C5.57195 19.3664 5.5729 19.3882 5.5729 19.4104C5.5729 19.4326 5.57193 19.4546 5.57004 19.4763ZM1.92896 3.25006C1.51474 3.25006 1.17896 3.58585 1.17896 4.00006C1.17896 4.41427 1.51474 4.75006 1.92896 4.75006H6.7522C7.16642 4.75006 7.5022 4.41427 7.5022 4.00006C7.5022 3.58585 7.16642 3.25006 6.7522 3.25006H1.92896ZM1.17896 7.00006C1.17896 6.58585 1.51474 6.25006 1.92896 6.25006H4.8229C5.23712 6.25006 5.5729 6.58585 5.5729 7.00006C5.5729 7.41427 5.23712 7.75006 4.8229 7.75006H1.92896C1.51474 7.75006 1.17896 7.41427 1.17896 7.00006ZM1.92896 9.25006C1.51474 9.25006 1.17896 9.58585 1.17896 10.0001C1.17896 10.4143 1.51474 10.7501 1.92896 10.7501H2.8936C3.30782 10.7501 3.6436 10.4143 3.6436 10.0001C3.6436 9.58585 3.30782 9.25006 2.8936 9.25006H1.92896Z" fill="#1D1D1D"/>
+                      </svg>
+                  </div>
+                </div>
+                <div class="env-o-previsto-a-partir-del-5-de-junio-de-2024">
+                  <span>
+                    <span class="env-o-previsto-a-partir-del-5-de-junio-de-2024-span">
+                      Envío previsto a partir del 5 de junio de 2024
+                    </span>
+                      
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Aqui termina la FICHA DE PRODUCTO -->
+
+      <!-- Aqui empieza la tabla DESCRIPTIVA -->
+
+      <div class="container">
+        <div class="secciones-descripcion">
+          <div class="frame-32">
+            <div class="frame-31">
+              <div class="descripci-n">Descripción</div>
+              <div class="audio">Audio</div>
+              <div class="alimentaci-n-conectividad">Alimentación + conectividad</div>
+              <div class="requerimientos">Requerimientos</div>
+            </div>
+          </div>
+          <hr class="separator">
+        </div>
+        <div
+          class="percibe-cada-frecuencia-con-una-precisi-n-y-una-nitidez-insuperables-sum-rgete-como-nunca-con-un-sonido-sin-p-rdidas-un-audio-espacial-con-seguimiento-din-mico-de-la-cabeza-y-una-cancelaci-n-activa-de-ruido-de-primera-categor-a-ent-rate-de-todo-lo-que-te-rodea-con-el-modo-aware-disfruta-de-hasta-30-horas-de-autonom-a-una-comodidad-excepcional-y-llamadas-de-calidad-conecta-tus-dispositivos-de-forma-inal-mbrica-mediante-bluetooth-o-utiliza-los-cables-usb-c-y-3-5-mm-incluidos-y-escucha-el-contenido-de-tu-cine-en-casa-con-un-sonido-de-otra-galaxia-percibe-cada-frecuencia-con-una-precisi-n-y-una-nitidez-insuperables-sum-rgete-como-nunca-con-un-sonido-sin-p-rdidas-un-audio-espacial-con-seguimiento-din-mico-de-la-cabeza-y-una-cancelaci-n-activa-de-ruido-de-primera-categor-a-ent-rate-de-todo-lo-que-te-rodea-con-el-modo-aware-disfruta-de-hasta-30-horas-de-autonom-a-una-comodidad-excepcional-y-llamadas-de-calidad-conecta-tus-dispositivos-de-forma-inal-mbrica-mediante-bluetooth-o-utiliza-los-cables-usb-c-y-3-5-mm-incluidos-y-escucha-el-contenido-de-tu-cine-en-casa-con-un-sonido-de-otra-galaxia"
+        
+        >
+        Sumérgete en un mundo de sonido donde cada nota, cada susurro y cada explosión
+        cobran vida con una claridad y precisión sin igual. Experimenta la sensación
+        envolvente de un audio espacial que te transporta a mundos lejanos y te
+        sumerge en la acción con un realismo asombroso.
+        <br />
+        <br />
+        Con la tecnología de cancelación activa de ruido de última generación, podrás
+        disfrutar de tu música, películas o llamadas sin distracciones, sumergiéndote
+        por completo en el sonido sin importar el entorno en el que te encuentres.
+        Además, con el seguimiento dinámico de la cabeza, el audio se ajusta de manera
+        inteligente para ofrecerte una experiencia auditiva verdaderamente inmersiva,
+        sin importar cómo te muevas.
+        <br />
+        Pero no solo se trata de calidad de sonido, sino también de comodidad y
+        conveniencia. Con hasta 30 horas de autonomía, podrás disfrutar de tu música
+        favorita durante todo el día sin preocuparte por quedarte sin batería. Y
+        cuando necesites recargar, podrás hacerlo de manera rápida y sencilla mediante
+        Bluetooth o los cables USB-C y 3,5 mm incluidos.
+        <br />
+        <br />
+        Ya sea que estés en casa, en la oficina o de viaje, estos auriculares están
+        diseñados para adaptarse a tu estilo de vida. Conéctalos fácilmente a tus
+        dispositivos y disfruta de una libertad total de movimiento mientras te
+        sumerges en un sonido de otra galaxia.
+        <br />
+        <br />
+        Conoce el mundo que te rodea de una manera completamente nueva con el modo
+        Aware, que te permite mantener una conciencia total de tu entorno mientras
+        disfrutas de tu música o mantienes conversaciones telefónicas. Convierte cada
+        momento en una experiencia sensorial única con unos auriculares que van más
+        allá de lo ordinario.
+      </div>
+        </div>
+      </div>
+            <!-- Aqui termina la tabla DESCRIPTIVA -->
+
+
+            <!-- Aqui empieza las SUGERENCIAS -->
+
+      <div class="title_2">También puede interesarte</div>
+
+            <!-- Aqui empieza las CARD-->
+
+      <div class="card">
+        <div class="card2">
+          <div class="frame-26086284">
+            <div class="image-product">
+              <img src="assets/images/image_6.png"/>
+              <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M5.56234 7.81189C4.74684 8.7701 4.27765 10.0398 4.27765 11.2499C4.27765 13.7145 6.23902 16.0821 8.44831 17.9224C9.52755 18.8214 10.615 19.5523 11.4425 20.0581C11.8558 20.3108 12.2009 20.5052 12.4437 20.6346C12.4632 20.6451 12.482 20.655 12.5 20.6645C12.5181 20.655 12.5368 20.6451 12.5564 20.6346C12.7991 20.5052 13.1442 20.3108 13.5575 20.0581C14.3851 19.5523 15.4725 18.8214 16.5518 17.9224C18.7611 16.0821 20.7224 13.7145 20.7224 11.2499C20.7224 10.0398 20.2532 8.77011 19.4377 7.8119C18.6291 6.86182 17.512 6.24976 16.2 6.24976C14.681 6.24976 13.6928 6.99097 13.1009 7.68589C12.9532 7.85929 12.7327 7.95978 12.5 7.95978C12.2674 7.95978 12.0469 7.85929 11.8992 7.68589C11.3072 6.99097 10.319 6.24976 8.80002 6.24976C7.488 6.24976 6.37092 6.86182 5.56234 7.81189ZM12.7677 20.7978C12.7675 20.7978 12.7672 20.7977 12.767 20.7975L12.7677 20.7978ZM4.36021 6.86019C5.40913 5.62772 6.94204 4.74976 8.80002 4.74976C10.4599 4.74976 11.6732 5.39824 12.5 6.12363C13.3268 5.39824 14.5401 4.74976 16.2 4.74976C18.058 4.74976 19.5909 5.62772 20.6398 6.86019C21.6818 8.08453 22.2777 9.68992 22.2777 11.2499C22.2777 14.4254 19.819 17.1828 17.5683 19.0576C16.4176 20.0162 15.265 20.7903 14.39 21.3251C13.9521 21.5928 13.5803 21.8026 13.309 21.9473C13.1739 22.0193 13.0599 22.0773 12.9727 22.119C12.9302 22.1393 12.887 22.1591 12.8475 22.1755C12.8287 22.1833 12.8009 22.1945 12.7692 22.2051C12.7537 22.2103 12.7278 22.2186 12.6959 22.2264L12.6954 22.2265C12.6751 22.2315 12.5987 22.2501 12.5 22.2501C12.4014 22.2501 12.325 22.2315 12.3047 22.2265L12.3041 22.2264C12.2723 22.2186 12.2464 22.2103 12.2309 22.2051C12.1992 22.1945 12.1714 22.1833 12.1526 22.1755C12.1131 22.1591 12.0699 22.1393 12.0273 22.119C11.9401 22.0773 11.8261 22.0193 11.6911 21.9473C11.4198 21.8026 11.048 21.5928 10.61 21.3251C9.73507 20.7903 8.58251 20.0162 7.43176 19.0576C5.18105 17.1828 2.72241 14.4254 2.72241 11.2499C2.72241 9.68992 3.31822 8.08453 4.36021 6.86019Z" fill="#1D1D1D"/>
+                </svg>
+            </div>
+          </div>
+          <div class="frame-26086286">
+            <div class="nombre-producto">
+              <div class="auriculares-noise-770">
+                Auriculares Noise 770
+                <br />
+              </div>
+              <div class="jbl">JBL</div>
+            </div>
+            <div class="precio">
+              <div class="product-name">
+                <div class="frame-26086276">
+                  <div class="frame-26086275">
+                    <div class="_179-99">179,99 €</div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-name">
+                <div class="frame-26086276">
+                  <div class="frame-26086275">
+                    <div class="iva-incl-con-env-o-gratis">
+                      IVA incl. con envío gratis
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card2">
+          <div class="frame-26086284">
+            <div class="image-product">
+              <img src="assets/images/image_7.png"/>
+              <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M5.56234 7.81189C4.74684 8.7701 4.27765 10.0398 4.27765 11.2499C4.27765 13.7145 6.23902 16.0821 8.44831 17.9224C9.52755 18.8214 10.615 19.5523 11.4425 20.0581C11.8558 20.3108 12.2009 20.5052 12.4437 20.6346C12.4632 20.6451 12.482 20.655 12.5 20.6645C12.5181 20.655 12.5368 20.6451 12.5564 20.6346C12.7991 20.5052 13.1442 20.3108 13.5575 20.0581C14.3851 19.5523 15.4725 18.8214 16.5518 17.9224C18.7611 16.0821 20.7224 13.7145 20.7224 11.2499C20.7224 10.0398 20.2532 8.77011 19.4377 7.8119C18.6291 6.86182 17.512 6.24976 16.2 6.24976C14.681 6.24976 13.6928 6.99097 13.1009 7.68589C12.9532 7.85929 12.7327 7.95978 12.5 7.95978C12.2674 7.95978 12.0469 7.85929 11.8992 7.68589C11.3072 6.99097 10.319 6.24976 8.80002 6.24976C7.488 6.24976 6.37092 6.86182 5.56234 7.81189ZM12.7677 20.7978C12.7675 20.7978 12.7672 20.7977 12.767 20.7975L12.7677 20.7978ZM4.36021 6.86019C5.40913 5.62772 6.94204 4.74976 8.80002 4.74976C10.4599 4.74976 11.6732 5.39824 12.5 6.12363C13.3268 5.39824 14.5401 4.74976 16.2 4.74976C18.058 4.74976 19.5909 5.62772 20.6398 6.86019C21.6818 8.08453 22.2777 9.68992 22.2777 11.2499C22.2777 14.4254 19.819 17.1828 17.5683 19.0576C16.4176 20.0162 15.265 20.7903 14.39 21.3251C13.9521 21.5928 13.5803 21.8026 13.309 21.9473C13.1739 22.0193 13.0599 22.0773 12.9727 22.119C12.9302 22.1393 12.887 22.1591 12.8475 22.1755C12.8287 22.1833 12.8009 22.1945 12.7692 22.2051C12.7537 22.2103 12.7278 22.2186 12.6959 22.2264L12.6954 22.2265C12.6751 22.2315 12.5987 22.2501 12.5 22.2501C12.4014 22.2501 12.325 22.2315 12.3047 22.2265L12.3041 22.2264C12.2723 22.2186 12.2464 22.2103 12.2309 22.2051C12.1992 22.1945 12.1714 22.1833 12.1526 22.1755C12.1131 22.1591 12.0699 22.1393 12.0273 22.119C11.9401 22.0773 11.8261 22.0193 11.6911 21.9473C11.4198 21.8026 11.048 21.5928 10.61 21.3251C9.73507 20.7903 8.58251 20.0162 7.43176 19.0576C5.18105 17.1828 2.72241 14.4254 2.72241 11.2499C2.72241 9.68992 3.31822 8.08453 4.36021 6.86019Z" fill="#1D1D1D"/>
+                </svg>
+            </div>
+          </div>
+          <div class="frame-26086286">
+            <div class="nombre-producto">
+              <div class="auriculares-noise-770">Sony MDR-ZX310, Hifi</div>
+              <div class="jbl">SONY</div>
+            </div>
+            <div class="precio">
+              <div class="product-name">
+                <div class="frame-26086276">
+                  <div class="frame-26086275">
+                    <div class="_179-99">279,99 €</div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-name">
+                <div class="frame-26086276">
+                  <div class="frame-26086275">
+                    <div class="iva-incl-con-env-o-gratis">
+                      IVA incl. con envío gratis
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card2">
+          <div class="frame-26086284">
+            <div class="image-product">
+              <img src="assets/images/image_8.png"/>
+              <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M5.56234 7.81189C4.74684 8.7701 4.27765 10.0398 4.27765 11.2499C4.27765 13.7145 6.23902 16.0821 8.44831 17.9224C9.52755 18.8214 10.615 19.5523 11.4425 20.0581C11.8558 20.3108 12.2009 20.5052 12.4437 20.6346C12.4632 20.6451 12.482 20.655 12.5 20.6645C12.5181 20.655 12.5368 20.6451 12.5564 20.6346C12.7991 20.5052 13.1442 20.3108 13.5575 20.0581C14.3851 19.5523 15.4725 18.8214 16.5518 17.9224C18.7611 16.0821 20.7224 13.7145 20.7224 11.2499C20.7224 10.0398 20.2532 8.77011 19.4377 7.8119C18.6291 6.86182 17.512 6.24976 16.2 6.24976C14.681 6.24976 13.6928 6.99097 13.1009 7.68589C12.9532 7.85929 12.7327 7.95978 12.5 7.95978C12.2674 7.95978 12.0469 7.85929 11.8992 7.68589C11.3072 6.99097 10.319 6.24976 8.80002 6.24976C7.488 6.24976 6.37092 6.86182 5.56234 7.81189ZM12.7677 20.7978C12.7675 20.7978 12.7672 20.7977 12.767 20.7975L12.7677 20.7978ZM4.36021 6.86019C5.40913 5.62772 6.94204 4.74976 8.80002 4.74976C10.4599 4.74976 11.6732 5.39824 12.5 6.12363C13.3268 5.39824 14.5401 4.74976 16.2 4.74976C18.058 4.74976 19.5909 5.62772 20.6398 6.86019C21.6818 8.08453 22.2777 9.68992 22.2777 11.2499C22.2777 14.4254 19.819 17.1828 17.5683 19.0576C16.4176 20.0162 15.265 20.7903 14.39 21.3251C13.9521 21.5928 13.5803 21.8026 13.309 21.9473C13.1739 22.0193 13.0599 22.0773 12.9727 22.119C12.9302 22.1393 12.887 22.1591 12.8475 22.1755C12.8287 22.1833 12.8009 22.1945 12.7692 22.2051C12.7537 22.2103 12.7278 22.2186 12.6959 22.2264L12.6954 22.2265C12.6751 22.2315 12.5987 22.2501 12.5 22.2501C12.4014 22.2501 12.325 22.2315 12.3047 22.2265L12.3041 22.2264C12.2723 22.2186 12.2464 22.2103 12.2309 22.2051C12.1992 22.1945 12.1714 22.1833 12.1526 22.1755C12.1131 22.1591 12.0699 22.1393 12.0273 22.119C11.9401 22.0773 11.8261 22.0193 11.6911 21.9473C11.4198 21.8026 11.048 21.5928 10.61 21.3251C9.73507 20.7903 8.58251 20.0162 7.43176 19.0576C5.18105 17.1828 2.72241 14.4254 2.72241 11.2499C2.72241 9.68992 3.31822 8.08453 4.36021 6.86019Z" fill="#1D1D1D"/>
+                </svg>
+            </div>
+          </div>
+          <div class="frame-26086286">
+            <div class="nombre-producto">
+              <div class="auriculares-noise-770">
+                Sonos ACE
+                <br />
+              </div>
+              <div class="jbl">SONOS</div>
+            </div>
+            <div class="precio">
+              <div class="product-name">
+                <div class="frame-26086276">
+                  <div class="frame-26086275">
+                    <div class="_179-99">499,99 €</div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-name">
+                <div class="frame-26086276">
+                  <div class="frame-26086275">
+                    <div class="iva-incl-con-env-o-gratis">
+                      IVA incl. con envío gratis
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Aqui termina las CARD-->
+
+
+<!-- Aqui empieza la NEWSLETTER-->
+      
+      <div class="newsletter">
+        <h2>Suscríbete a nuestra NEWSLETTER</h2>
+        <p>Reciba un 10 % de descuento, acceso a eventos y concursos exclusivos.</p>
+        <form action="#" method="post">
+            <label for="email">Correo electrónico</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Enviar</button>
+        </form>
+        <p class="disclaimer">Al ingresar tu dirección de correo electrónico, aceptas recibir ofertas, promociones y otros mensajes comerciales de Mónaco. 
+          <br />
+          Puedes darte de baja en cualquier momento.
+
+        </p>
+    </div>
+
+    <!-- Aqui termina la NEWSLETTER-->
+
+    <!-- Aqui empieza el FOOTER-->
+      
+      <footer>
+       
+        <div class="footer-columns">
+          <div class="footer-column">
+              <h3>ATENCIÓN AL CLIENTE</h3>
+              <ul>
+                  <li><a href="#">Contacto</a></li>
+                  <li><a href="#">Preguntas frecuentes</a></li>
+                  <li><a href="#">Soporte técnico</a></li>
+                  <li><a href="#">Devoluciones y cambios</a></li>
+                  <li><a href="#">Envío y entrega</a></li>
+              </ul>
+          </div>
+          <div class="footer-column">
+              <h3>SOBRE NOSOTROS</h3>
+              <ul>
+                  <li><a href="#">Historia</a></li>
+                  <li><a href="#">Trabaja con nosotros</a></li>
+                  <li><a href="#">Marcas</a></li>
+                  <li><a href="#">Nuestras tiendas</a></li>
+                  <li><a href="#">Diversidad e inclusión</a></li>
+              </ul>
+          </div>
+          <div class="footer-column">
+              <h3>SOCIOS MÓNACO</h3>
+              <ul>
+                  <li><a href="#">Únete a nosotros</a></li>
+                  <li><a href="#">Beneficios</a></li>
+                  <li><a href="#">Cómo funciona</a></li>
+                  <li><a href="#">Preguntas frecuentes</a></li>
+                  <li><a href="#">Soporte</a></li>
+              </ul>
+          </div>
+      </div>
+      
+
+            
+        </div>
+        <div class="social-icons">
+          <svg width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.41132 7.98705C8.81632 8.07392 9.07422 8.47266 8.98735 8.87766L6.97115 18.2778C6.88428 18.6828 6.48554 18.9407 6.08054 18.8538C5.67554 18.7669 5.41764 18.3682 5.5045 17.9632L7.52071 8.56308C7.60757 8.15808 8.00631 7.90018 8.41132 7.98705Z" fill="white"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.43032 1.5C5.07587 1.5 1.5 5.16792 1.5 9.75019C1.5 14.3325 5.07587 18.0004 9.43032 18.0004C13.7848 18.0004 17.3606 14.3325 17.3606 9.75019C17.3606 5.16792 13.7848 1.5 9.43032 1.5ZM0 9.75019C0 4.39112 4.19675 0 9.43032 0C14.6639 0 18.8606 4.39112 18.8606 9.75019C18.8606 15.1093 14.6639 19.5004 9.43032 19.5004C4.19675 19.5004 0 15.1093 0 9.75019Z" fill="white"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.43031 5.50006C7.13218 5.50006 5.35791 7.22296 5.35791 9.25015C5.35791 9.65705 5.44818 10.057 5.60084 10.4703C5.74436 10.8589 5.54572 11.2902 5.15717 11.4337C4.76861 11.5772 4.33728 11.3786 4.19376 10.99C3.99921 10.4633 3.85791 9.88328 3.85791 9.25015C3.85791 6.29724 6.40451 4.00006 9.43031 4.00006C12.4561 4.00006 15.0027 6.29724 15.0027 9.25015C15.0027 12.1286 12.7537 14.5002 9.91255 14.5002C8.78058 14.5002 7.74645 14.1081 6.9139 13.4782C6.58358 13.2283 6.51841 12.7579 6.76833 12.4276C7.01826 12.0973 7.48864 12.0321 7.81896 12.282C8.41383 12.7321 9.13485 13.0002 9.91255 13.0002C11.8745 13.0002 13.5027 11.3518 13.5027 9.25015C13.5027 7.22296 11.7284 5.50006 9.43031 5.50006Z" fill="white"/>
+            </svg>
+            
+            <svg width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M5.09016 1.5C3.12923 1.5 1.5 3.15734 1.5 5.25009V14.2605C1.5 16.3611 3.13675 18.0106 5.09016 18.0106H13.7801C15.7411 18.0106 17.3703 16.3533 17.3703 14.2605V5.25009C17.3703 3.14955 15.7335 1.5 13.7801 1.5H5.09016ZM0 5.25009C0 2.38275 2.24798 0 5.09016 0H13.7801C16.6105 0 18.8703 2.37054 18.8703 5.25009V14.2605C18.8703 17.1279 16.6223 19.5106 13.7801 19.5106H5.09016C2.25975 19.5106 0 17.1401 0 14.2605V5.25009Z" fill="white"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M13.1364 4.81013C13.1364 4.2316 13.5915 3.72028 14.2142 3.72028C14.8362 3.72028 15.2922 4.23088 15.2922 4.81013C15.2922 5.38937 14.8362 5.89998 14.2142 5.89998C13.5915 5.89998 13.1364 5.38866 13.1364 4.81013ZM14.2142 5.22028C14.4703 5.22028 14.6364 5.00865 14.6364 4.81013C14.6364 4.6116 14.4703 4.39998 14.2142 4.39998C13.9587 4.39998 13.7922 4.61089 13.7922 4.81013C13.7922 5.00937 13.9587 5.22028 14.2142 5.22028Z" fill="white"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M9.43999 6.90002C7.96196 6.90002 6.71777 8.15033 6.71777 9.7502C6.71777 11.3501 7.96196 12.6004 9.43999 12.6004C10.918 12.6004 12.1622 11.3501 12.1622 9.7502C12.1622 8.15033 10.918 6.90002 9.43999 6.90002ZM5.21777 9.7502C5.21777 7.37353 7.08283 5.40002 9.43999 5.40002C11.7972 5.40002 13.6622 7.37353 13.6622 9.7502C13.6622 12.1269 11.7972 14.1004 9.43999 14.1004C7.08283 14.1004 5.21777 12.1269 5.21777 9.7502Z" fill="white"/>
+              </svg>
+
+            <svg width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M4.96768 0.0117266C5.01099 0.00397646 5.05519 0 5.09981 0H13.7801C16.6105 0 18.8703 2.37054 18.8703 5.25009V14.2605C18.8703 17.1279 16.6223 19.5106 13.7801 19.5106H5.09016C2.25975 19.5106 0 17.1401 0 14.2605V5.26035C0 2.42338 2.18468 0.0787258 4.96768 0.0117266ZM5.21378 1.5C5.1732 1.50678 5.13187 1.51025 5.09016 1.51025C3.12817 1.51025 1.5 3.1587 1.5 5.26035V14.2605C1.5 16.3611 3.13675 18.0106 5.09016 18.0106H13.7801C15.7411 18.0106 17.3703 16.3533 17.3703 14.2605V5.25009C17.3703 3.14955 15.7335 1.5 13.7801 1.5H5.21378Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M7.82202 10.6501C7.82202 10.2359 8.15781 9.90009 8.57202 9.90009H13.781C14.1952 9.90009 14.531 10.2359 14.531 10.6501C14.531 11.0643 14.1952 11.4001 13.781 11.4001H8.57202C8.15781 11.4001 7.82202 11.0643 7.82202 10.6501Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M9.55786 8.80047C9.55786 6.95388 11.005 5.40002 12.8643 5.40002H13.7807C14.1949 5.40002 14.5307 5.73581 14.5307 6.15002C14.5307 6.56424 14.1949 6.90002 13.7807 6.90002H12.8643C11.8876 6.90002 11.0579 7.727 11.0579 8.80047V18.7504C11.0579 19.1646 10.7221 19.5004 10.3079 19.5004C9.89365 19.5004 9.55786 19.1646 9.55786 18.7504V8.80047Z" fill="white"/>
+</svg>
+        </div>
+        <hr>
+        
+        <div class="footer-bottom">
+            <p>Mónaco 2024. Todos los derechos reservados <a href="#">Política de privacidad</a>  <a href="#">Política de cookies<a href="#">Términos y condiciones</a> <a href="#">Aviso legal</a>  <a href="#">Accesibilidad</a>  <a href="#">ESP</a>  </p>
+          
+        </div>
+    </footer>
+      
+    <!-- Aqui termina el FOOTER-->
+</body>
+
+
+</html>

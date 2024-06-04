@@ -1,0 +1,1332 @@
+@font-face {
+    font-family: CircularSpotifyText-Book;
+    src: url(../mónaco_case_study/assets/fonts/CircularSpotifyText-Book.woff);
+}
+
+
+.header * {
+  box-sizing: border-box;
+}
+
+/* Estilos para el encabezado */
+.header {
+  background: var(--white);
+  border-bottom: 1px solid var(--grey);
+  padding: 40px 60px 40px 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position:relative;
+}
+
+
+/* Estilos para las secciones */
+.secciones {
+  display: flex;
+  gap: 36px;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: "CircularSpotifyText-Book", sans-serif;
+
+
+}
+
+.secciones li {
+  padding: 8px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.secciones li .moda2,
+.secciones li .hogar2,
+.secciones li .belleza2,
+.secciones li .deporte2,
+.secciones li .electrodomesticos2,
+.secciones li .tecnologia2 {
+  color: var(--black);
+  text-align: center;
+  font-family: "CircularSpotifyText-Book", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+
+}
+
+/* Estilos para los iconos */
+.iconos {
+  display: flex;
+  gap: 10px;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+.cajon-de-iconos {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: fspace-between;
+}
+
+.placerholder,
+.placerholder2,
+.placerholder3 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+
+.vector,
+.vector2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  overflow: visible;
+}
+
+.group,
+.group2 {
+  position: absolute;
+  overflow: visible;
+}
+
+.group {
+  left: 4.22px;
+  top: 4.25px;
+}
+
+.group2 {
+  width: 64.86%;
+  height: 76.88%;
+  right: 17.55%;
+  left: 17.59%;
+  bottom: 9.58%;
+  top: 13.54%;
+}
+
+/* Estilos para el breadcrumb */
+
+.tecnologia-auriculares-marshall * {
+  box-sizing: border-box;
+  
+}
+.tecnolog-a-auriculares-marshall {
+  color: var(--black, #1d1d1d);
+  text-align: left;
+  font-family: "CircularSpotifyText-Book", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  position: relative;
+  display: flex;
+  align-items: left;
+  justify-content: space-between;
+  padding: 40px 60px 40px 60px;
+
+}
+
+/* Estilos para producto */
+.carrusel-detalle * {
+  box-sizing: border-box;
+}
+.carrusel-detalle {
+  display: flex;
+  flex-direction: row;
+  gap: 200px;
+  align-items: center;
+  justify-content: flex-start;
+  position: flex;
+}
+.carrusel-negro {
+  flex-shrink: 0;
+  width: 745px;
+  height: 618px;
+  position: relative;
+
+}
+.button {
+  width: 4%;
+  height: 4%;
+  position: absolute;
+  right: 10%;
+  left: 96%;
+  bottom: 47%;
+  top: 47%;
+  align-items: end;
+}
+.svg {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 90%;
+  top: 6.02px;
+  overflow: visible;
+}
+.image_1  {
+    display: flex;
+    padding: 40px 60px 40px 60px;
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    object-fit: cover;
+
+    
+}
+.frame-2 {
+  display: flex;
+  flex-direction: row;
+  gap: 9px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 9%;
+  height: 2%;
+  position: absolute;
+  right: 45%;
+  left: 45%;
+  bottom: 2%;
+  top: 96%;
+}
+.ellipse-1 {
+  background: var(--black, #1d1d1d);
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 7px;
+  height: 7px;
+  position: relative;
+}
+.ellipse-2 {
+  background: var(--grey, #ecebeb);
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 7px;
+  height: 7px;
+  position: relative;
+}
+.ellipse-3 {
+  background: var(--grey, #ecebeb);
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 7px;
+  height: 7px;
+  position: relative;
+}
+.ellipse-4 {
+  background: var(--grey, #ecebeb);
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 7px;
+  height: 7px;
+  position: relative;
+}
+.ellipse-5 {
+  background: var(--grey, #ecebeb);
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 7px;
+  height: 7px;
+  position: relative;
+}
+.product-details {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.product-name {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.title {
+  display: flex;
+  flex-direction: row;
+  gap: 31px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.h1 {
+  color: var(--black, #1d1d1d);
+  text-align: left;
+  font-family: var(--h1-font-family, "CircularSpotifyText-Book", sans-serif);
+  font-size: var(--h1-font-size, 48px);
+  line-height: var(--h1-line-height, 64px);
+  font-weight: var(--h1-font-weight, 400);
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.favourites {
+  flex-shrink: 0;
+  width: 23.15px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+  
+}
+
+
+
+
+.star {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.price {
+    color: var(--black, #1d1d1d);
+    font-family: "CircularSpotifyText-Book", sans-serif;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 400;
+    position: relative;
+    left: 0;
+    width: 87px;
+    height: 42px;
+    display: flex;
+    
+}
+
+.point {
+  color: var(--black, #1d1d1d);
+  text-align: center;
+  font-family: "CircularSpotifyText-Book", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.review {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.star2 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.placerholder {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.placerholder2 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.placerholder3 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.placerholder4 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.placerholder5 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.quantity_review {
+  color: var(--black, #1d1d1d);
+  text-align: center;
+  font-family: "CircularSpotifyText-Book", sans-serif;
+  font-size: 16px;
+  line-height: 20.8px;
+  font-weight: 400;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product-description {
+  padding: 8px 0px 8px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.estos-auriculares-se-han-dise-ado-meticulosamente-y-ajustado-a-la-perfecci-n-para-que-conectes-como-nunca-con-el-sonido-que-m-s-te-gusta-leer-m-s {
+  color: var(--black, #1d1d1d);
+  text-align: left;
+  font-family: "CircularSpotifyText-Book", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.estos-auriculares-se-han-dise-ado-meticulosamente-y-ajustado-a-la-perfecci-n-para-que-conectes-como-nunca-con-el-sonido-que-m-s-te-gusta-leer-m-s-span {
+  color: var(--black, #1d1d1d);
+  font-family: "CircularSpotifyText-Book", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.estos-auriculares-se-han-dise-ado-meticulosamente-y-ajustado-a-la-perfecci-n-para-que-conectes-como-nunca-con-el-sonido-que-m-s-te-gusta-leer-m-s-span2 {
+  color: var(--black, #1d1d1d);
+  font-family: "CircularSpotifyText-Book", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+
+.color {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.product_color {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.color-negro {
+  color: var(--black, #1d1d1d);
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.color-negro-span {
+  color: var(--black, #1d1d1d);
+  font-family: "CircularSpotifyText-Medium", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.color-negro-span2 {
+  color: var(--black, #1d1d1d);
+  font-family: "CircularSpotifyText-Book", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.circle_color {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-25 {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.ellipse-7 {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: var(--black, #1d1d1d);
+  border-width: 2px;
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  position: relative;
+}
+.ellipse-6 {
+  background: var(--black, #1d1d1d);
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  left: 7px;
+  top: 7px;
+}
+.frame-22 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.ellipse-72 {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: var(--brown, #805d1a);
+  border-width: 2px;
+  opacity: 0;
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  position: relative;
+}
+.ellipse-62 {
+  background: var(--brown, #805d1a);
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  left: 7px;
+  top: 7px;
+}
+.cantidad {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.cantidad2 {
+  color: var(--black, #1d1d1d);
+  text-align: left;
+  font-family: "CircularSpotifyText-Medium", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  width: 72px;
+  height: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.cantidad3 {
+  flex-shrink: 0;
+  width: 138px;
+  height: 55px;
+  position: relative;
+}
+.vector {
+  width: 3.9%;
+  height: 3.76%;
+  position: absolute;
+  right: 80.15%;
+  left: 15.94%;
+  bottom: 45.36%;
+  top: 50.88%;
+  overflow: visible;
+}
+.group-279 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-25 {
+  border-radius: 30px;
+  border-style: solid;
+  border-color: var(--black, #1d1d1b);
+  border-width: 1px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+._1 {
+  color: var(--black, #1d1d1b);
+  text-align: left;
+  font-family: "Inter-ExtraBold", sans-serif;
+  font-size: 16px;
+  line-height: 49.12px;
+  font-weight: 800;
+  position: absolute;
+  right: 47.1%;
+  left: 46.38%;
+  width: 6.52%;
+  bottom: 22.81%;
+  top: 24.56%;
+  height: 52.63%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.vector2 {
+  width: 5.96%;
+  height: 14.43%;
+  position: absolute;
+  right: 17.23%;
+  left: 76.81%;
+  bottom: 41.71%;
+  top: 43.86%;
+  overflow: visible;
+}
+.cta-button {
+  background: var(--black, #1d1d1d);
+  border-radius: 30px;
+  padding: 16px 144px 16px 144px;
+  display: flex;
+  flex-direction: row;
+  gap: 10.26px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.cta-button:hover {
+    background: var(--grey, #6B6B6B);
+  }
+
+.label {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font-family: "CircularSpotifyText-Medium", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.info-delivery {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.cuotas {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-252 {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.o-3-cuotras-sin-intereses-de-166-33-con {
+  color: var(--black, #1d1d1d);
+  text-align: left;
+  font-family: var(--body-font-family, "CircularSpotifyText-Book", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  font-weight: var(--body-font-weight, 400);
+  position: relative;
+  width: 301px;
+  height: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.image-2 {
+  flex-shrink: 0;
+  width: 61.76px;
+  height: 14px;
+  position: relative;
+  object-fit: cover;
+}
+.cajon-de-iconos {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.placerholder6 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.vector3 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.delivery-store {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.texto-icono {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.store {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.placerholder7 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+.vector4 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  overflow: visible;
+}
+.group {
+  width: 83.35%;
+  height: 74.08%;
+  position: absolute;
+  right: 8.32%;
+  left: 8.33%;
+  bottom: 12.96%;
+  top: 12.96%;
+  overflow: visible;
+}
+.recogida-gratuita-en-tienda {
+  color: var(--black, #1d1d1d);
+  text-align: left;
+  font-family: "CircularSpotifyText-Book", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.delivery-house {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.delivery {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.group2 {
+  height: auto;
+  position: absolute;
+  left: 1.22px;
+  top: 3.25px;
+  overflow: visible;
+}
+.vector5 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  overflow: visible;
+}
+.env-o-previsto-a-partir-del-5-de-junio-de-2024 {
+  color: var(--black, #1d1d1d);
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  width: 332px;
+  height: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.env-o-previsto-a-partir-del-5-de-junio-de-2024-span {
+  color: var(--black, #1d1d1d);
+  font-family: "CircularSpotifyText-Book", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* Estilo para tabla */
+
+
+.container * {
+  box-sizing: border-box;
+  margin-bottom: auto;
+}
+.container {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  padding: 60px 60px 90px 60px;
+  background-color: #fafafa;
+  margin-bottom: 70px;
+  
+}
+
+.separator {
+    width: 1420px;
+    border: none;
+    height: 1px; 
+    background-color: #dfdcdc; 
+    margin-top: 5px; 
+    margin-bottom: 5px; /
+  }
+  
+.secciones-descripcion {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-32 {
+  flex-shrink: 0;
+  width: 601px;
+  height: 39px;
+  position: relative;
+}
+.frame-31 {
+  padding: 8px 0px 8px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.descripci-n {
+  color: var(--black, #1d1d1d);
+  text-align: left;
+  font-family: var(
+    --body-bold-font-family,
+    "CircularSpotifyText-Bold",
+    sans-serif
+  );
+  font-size: var(--body-bold-font-size, 16px);
+  font-weight: var(--body-bold-font-weight, 700);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.audio {
+  color: var(--black, #1d1d1d);
+  text-align: left;
+  font-family: var(--body-font-family, "CircularSpotifyText-Book", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  font-weight: var(--body-font-weight, 400);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.alimentaci-n-conectividad {
+  color: var(--black, #1d1d1d);
+  text-align: left;
+  font-family: var(--body-font-family, "CircularSpotifyText-Book", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  font-weight: var(--body-font-weight, 400);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.requerimientos {
+  color: var(--black, #1d1d1d);
+  text-align: left;
+  font-family: var(--body-font-family, "CircularSpotifyText-Book", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  font-weight: var(--body-font-weight, 400);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.percibe-cada-frecuencia-con-una-precisi-n-y-una-nitidez-insuperables-sum-rgete-como-nunca-con-un-sonido-sin-p-rdidas-un-audio-espacial-con-seguimiento-din-mico-de-la-cabeza-y-una-cancelaci-n-activa-de-ruido-de-primera-categor-a-ent-rate-de-todo-lo-que-te-rodea-con-el-modo-aware-disfruta-de-hasta-30-horas-de-autonom-a-una-comodidad-excepcional-y-llamadas-de-calidad-conecta-tus-dispositivos-de-forma-inal-mbrica-mediante-bluetooth-o-utiliza-los-cables-usb-c-y-3-5-mm-incluidos-y-escucha-el-contenido-de-tu-cine-en-casa-con-un-sonido-de-otra-galaxia-percibe-cada-frecuencia-con-una-precisi-n-y-una-nitidez-insuperables-sum-rgete-como-nunca-con-un-sonido-sin-p-rdidas-un-audio-espacial-con-seguimiento-din-mico-de-la-cabeza-y-una-cancelaci-n-activa-de-ruido-de-primera-categor-a-ent-rate-de-todo-lo-que-te-rodea-con-el-modo-aware-disfruta-de-hasta-30-horas-de-autonom-a-una-comodidad-excepcional-y-llamadas-de-calidad-conecta-tus-dispositivos-de-forma-inal-mbrica-mediante-bluetooth-o-utiliza-los-cables-usb-c-y-3-5-mm-incluidos-y-escucha-el-contenido-de-tu-cine-en-casa-con-un-sonido-de-otra-galaxia {
+  color: var(--black, #1d1d1d);
+  text-align: left;
+  font-family: var(--body-font-family, "CircularSpotifyText-Book", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  font-weight: var(--body-font-weight, 400);
+  position: relative;
+  width: 1236px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+
+/* Estilo titulo 2 */
+
+.title_2 {
+    color: var(--black, #1d1d1d);
+    text-align: left;
+    font-family: var(--h1-font-family, "CircularSpotifyText-Book", sans-serif);
+    font-size: var(--h1-font-size, 48px);
+    line-height: var(--h1-line-height, 64px);
+    font-weight: var(--h1-font-weight, 400);
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-bottom: 10px;
+    padding: 40px 64px 40px 60px;
+
+
+}
+
+
+/* Estilo para CARDS */
+
+.card,
+.card * {
+  box-sizing: border-box;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  padding: 40px 64px 40px 60px;
+}
+.card2 {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-26086284 {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.image-product {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.image-4 {
+  border-radius: 0px;
+  border-style: solid;
+  border-color: var(--grey, #ffffff);
+  border-width: 1px;
+  flex-shrink: 0;
+  width: 405px;
+  height: 405px;
+  position: relative;
+  object-fit: cover;
+}
+.favourites {
+  flex-shrink: 0;
+  width: 5.72%;
+  height: 5.93%;
+  position: absolute;
+  right: 5.4%;
+  left: 88.89%;
+  bottom: 88.39%;
+  top: 5.68%;
+  overflow: visible;
+}
+.frame-26086286 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.nombre-producto {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.auriculares-noise-770 {
+  color: var(--black, #1d1d1d);
+  text-align: left;
+  font-family: "CircularSpotifyText-Book", sans-serif;
+  font-size: 24px;
+  line-height: 20.8px;
+  font-weight: 800;
+  position: relative;
+  width: 404px;
+  height: 18px;
+}
+.jbl {
+  color: var(--black, #1d1d1d);
+  text-align: left;
+  font-family: "CircularSpotifyText-Book", sans-serif;
+  font-size: 16px;
+  line-height: 20.8px;
+  font-weight: 400;
+  position: relative;
+  width: 404px;
+  height: 18px;
+}
+.precio {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.product-name {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-26086276 {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-26086275 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+._179-99 {
+  color: var(--black, #1d1d1d);
+  text-align: right;
+  font-family: "CircularSpotifyText-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.iva-incl-con-env-o-gratis {
+  color: var(--black, #1d1d1d);
+  text-align: right;
+  font-family: "CircularSpotifyText-Book", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.favourites2 {
+  flex-shrink: 0;
+  width: 5.72%;
+  height: 5.93%;
+  position: absolute;
+  right: 5.4%;
+  left: 88.89%;
+  bottom: 88.39%;
+  top: 5.68%;
+  overflow: visible;
+}
+.favourites3 {
+  flex-shrink: 0;
+  width: 5.72%;
+  height: 5.93%;
+  position: absolute;
+  right: 5.4%;
+  left: 88.89%;
+  bottom: 88.39%;
+  top: 5.68%;
+  overflow: visible;
+  margin-bottom: 300px;
+
+}
+/* Estilos para Newsletter */
+
+.newsletter {
+    background-color: #f9f9f9;
+    padding: 60px;
+    text-align: center;
+    font-family: "CircularSpotifyText-Book", sans-serif;
+    margin-top: 120px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    
+
+}
+
+.newsletter h2 {
+    margin-bottom: 30px;
+}
+
+.newsletter p {
+    margin-bottom: 30px;
+    font-weight:400;
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    
+    
+}
+
+.newsletter label {
+    
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.newsletter input[type="email"] {
+    padding: 8px;
+    width: 350px;
+    border-radius: 20px;
+    border-width: 1px;
+    gap: 20px;
+    
+    
+    
+}
+
+.newsletter button {
+    padding: 8px 30px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    font-family: "CircularSpotifyText-Book", sans-serif;
+    border-width: 0,5px;
+    margin-left: 10px;
+}
+
+.disclaimer {
+    font-size: 14px;
+    
+}
+
+
+/* Estilos para FOOTER */
+
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 0;
+    font-family: "CircularSpotifyText-Book", sans-serif;
+    font-size: 14px;
+    
+}
+
+.footer-columns {
+  display: flex;
+  justify-content: flex-start; 
+  padding: 20px;
+  align-items: normal;
+  gap: 20px; 
+  padding: 50px;
+}
+
+.footer-column {
+  width: 20%; 
+}
+
+.footer-column h3 {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+  color: #fcfcfc;
+  text-decoration: none;
+}
+
+.social-icons {
+    text-align: left;
+    margin: 40px;
+    margin-left: 60px;
+    display: flex;
+    gap: 20px;
+    align-items: flex-end;
+    justify-content: flex-start;
+
+}
+
+
+hr {
+    border: none;
+    border-top: 1px solid #323232;
+    margin: 20px 0;
+}
+
+.footer-bottom {
+    text-align: left;
+    padding: 20px 40px 20px 60px;
+   
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+.footer-bottom a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 60px;
+  
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
